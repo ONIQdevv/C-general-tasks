@@ -1,0 +1,1 @@
+PLEASE, DON'T PUSH ANY. Just take sn idea from this repo. Thanks for reading :)
