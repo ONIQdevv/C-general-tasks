@@ -10,6 +10,28 @@ void r_check();
 void r_complete();
 
 
+
+
+
+1 || 2 логическое ИЛИ
+1true2true = true;
+1true2false = true;
+1false2false = false;
+
+1 && 2 - логическое И
+1true2true = true;
+1true2false = false;
+1false2false = false;
+
+
+
+
+
+
+
+
+
+
 int main() {
     turn_on("task_7.kw");
 

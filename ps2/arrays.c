@@ -65,8 +65,12 @@ void counter(const int input_array[], const int array_size, int result_array[2])
     int team2 = 0;
 
     for(int y = 0; y < array_size; y++){
-        if (y % 2 == 0) team2 = team2 + input_array[y];
-        else team1 = team1 + input_array[y];
+        if (y % 2 == 0) {
+            team2 += input_array[y];
+        }
+        else {
+            team1 += input_array[y];
+        }
     }
     result_array[0] = team2;
     result_array[1] = team1;
@@ -171,67 +175,16 @@ int special_numbers(const int input_array[], const int array_size, int result_ar
 
 
 int main() {
-    /*
-     *
-     *
 
-    printf("%.4f\n", lift_a_car(2, 80, 1400));
-// prints: 0.1100
-    printf("%.4f\n", lift_a_car(4, 90, 1650));
-// prints: 0.2100
-
-    printf("%.4f\n", unit_price(4.79, 16, 150));
-// prints: 0.2000
-    printf("%.4f\n", unit_price(5.63, 20, 200));
-// prints: 0.1400
-
-    printf("%d\n", collatz(20));
-// prints: 8
-    printf("%d\n", collatz(35));
-// prints: 14
-
-    printf("%d\n", opposite_number(10, 2));
-// prints: 7
-    printf("%d\n", opposite_number(12, 9));
-// prints: 3
 
     int input_array[] = {1,2,3,4,5};
     int result_array[2];
     counter(input_array, 5, result_array);
-    printf("%d %d\n", result_array[0], result_array[1]);
+    printf("%d%d \n", result_array[0], result_array[1]);
 // prints: 9 6
 
-    printf("%lu\n", sum_squared(1));
-// prints: 2
-    printf("%lu\n", sum_squared(4));
-// prints: 70
-    printf("%lu\n", sum_squared(33));
-// prints: 7219428434016265740
 
-    int input_array[] = {1,2,3,4,5};
-    printf("%d\n", array_min(input_array, 5));
-// prints: 1
-    printf("%d\n", array_max(input_array, 5));
-// prints: 5
-    printf("%d\n", array_max(NULL, 5));
-// prints: -1
 
-    int input_array[] = {11,12,13,14,15};
-    printf("%lu\n", special_counter(input_array, 5));
-// prints: 379
-
-    int input_array[] = {16,17,4,3,5,2};
-    int result_array[6];
-    int count = special_numbers(input_array, 6, result_array);
-    for(int i = 0; i < count; i++){
-        printf("%d ", result_array[i]);
-    }
-    printf("\n");
-// prints: 17 5 2
-
-     *
-     *
-     */
 
     return 0;
 }
