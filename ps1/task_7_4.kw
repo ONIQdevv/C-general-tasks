@@ -1,0 +1,31 @@
+13 4 1 1 E 99
+
+W 1 2 E
+W 2 2 E
+W 3 2 E
+W 3 3 E
+W 1 1 N
+W 3 1 N
+W 4 1 N
+W 4 2 E
+W 5 2 E
+W 5 3 E
+W 5 4 E
+W 6 1 N
+W 6 2 E
+W 7 2 E
+W 8 1 N
+W 8 2 E
+W 8 3 E
+W 8 4 E
+W 9 3 E
+W 9 2 E
+W 10 1 N
+W 10 2 E
+W 11 4 E
+W 11 3 E
+W 11 2 E
+W 12 1 N
+W 12 2 E
+
+B 1 1 0
