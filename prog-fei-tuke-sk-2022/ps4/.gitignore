@@ -1,0 +1,16 @@
+#Directories
+.idea
+assets
+#Libraries
+colors.h
+#Text document files
+cmake-build-debug
+*.txt
+#Compiled files
+show
+bmp
+*.o
+#Images
+*.bmp
+*.jpg
+*.png

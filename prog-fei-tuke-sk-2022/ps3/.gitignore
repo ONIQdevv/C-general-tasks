@@ -1,0 +1,14 @@
+.idea
+cmake-build-debug
+Makefile
+*.txt
+*.o
+show
+mm
+racer
+cheesefactory
+isolation
+racer.sh
+isolation.sh
+cheesefactory.sh
+mm.c
